@@ -1,0 +1,14 @@
+:host {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+
+  & > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

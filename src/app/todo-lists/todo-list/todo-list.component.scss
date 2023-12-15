@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+  background-color: aliceblue;
+
+  & > div {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &.selected {
+    border: 2px solid palevioletred;
+    background-color: lightgoldenrodyellow;
+  }
+}

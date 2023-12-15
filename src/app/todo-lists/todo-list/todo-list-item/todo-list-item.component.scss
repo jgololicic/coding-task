@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  label {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
